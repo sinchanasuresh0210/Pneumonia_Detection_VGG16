@@ -63,3 +63,12 @@ The model accepts images with the following input shape:
 
 ```text
 224 × 224 × 3
+🏁 Conclusion
+
+The Pneumonia Detection from Chest X-Ray Images using VGG16 project successfully demonstrates the use of deep learning and transfer learning for medical image classification. The VGG16 model was trained to classify chest X-ray images into two categories: NORMAL and PNEUMONIA.
+
+The model achieved a 93.55% training accuracy, 95.69% validation accuracy, and 84.94% test accuracy. The trained model was saved as pneumonia_vgg16.keras and integrated into a Streamlit web application.
+
+The application allows users to upload a chest X-ray image, preprocesses it automatically, and displays the predicted result along with the model's confidence score. This project provides practical experience in dataset preparation, image preprocessing, transfer learning, model training, evaluation, and web deployment.
+
+Overall, the project demonstrates how VGG16 can be applied to chest X-ray image classification. However, the system is intended only for educational purposes and should not be considered a replacement for professional medical diagnosis.
